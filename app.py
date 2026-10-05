@@ -29,7 +29,7 @@ if modo_automatico:
 while vida_jugador > 0 and vida_monstruo > 0:
     print("\n" + "=" * 40)
     print(f"TURNO {turno}")
-    print(f"{nombre}: {vida_jugador}/100 de vida")
+    print(f"{nombre}: {vida_jugador}/200 de vida")
     print(f"Monstruo: {vida_monstruo}/100 de vida")
     print(f"Pociones disponibles: {pociones}")
     print("=" * 40)
